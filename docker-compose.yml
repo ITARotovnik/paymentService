@@ -29,19 +29,9 @@ services:
       - 8081:8081
     depends_on:
       - mongodb
-    networks:
-      - ticket
-
-  rabbitconsumer:git remote add origin https://github.com/ITARotovnik/paymentService.git
-    image: quarkus/rabbitcomsumer-jvm
-    container_name: "eventpaymentsconsumer"
-    ports:
-      - 9000:9000
-    depends_on:
       - rabbitmq
     networks:
       - ticket
-
 volumes:
   mongodb_data:
 

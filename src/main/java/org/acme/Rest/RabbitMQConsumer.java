@@ -1,4 +1,3 @@
-/*
 package org.acme.Rest;
 
 import jakarta.enterprise.context.ApplicationScoped;
@@ -20,4 +19,3 @@ public class RabbitMQConsumer {
     }
 
 }
-*/
