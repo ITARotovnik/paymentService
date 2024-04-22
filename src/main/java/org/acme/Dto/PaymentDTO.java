@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
 public class PaymentDTO {
     private String id;
     private String userId;
+
     private String ticketId;
     private double amount;
     private LocalDateTime paymentDate;

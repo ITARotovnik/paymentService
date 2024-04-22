@@ -29,6 +29,8 @@ public class PaymentResource {
     @Inject
     PaymentRepository paymentRepository;
 
+    
+
     @Inject
     @Channel("payment-events")
     Emitter<String> paymentEventEmitter;
